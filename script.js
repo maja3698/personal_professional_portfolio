@@ -1,8 +1,11 @@
+import AOS from 'aos';
+AOS.init();
+
 let menu = document.getElementById("menu");
 let nav = document.getElementById("navigation");
 let exit = document.getElementById("exit");
 
-const experience = document.querySelector(".ex")
+
 
 menu.addEventListener("click", function (e) {
     nav.classList.add("nav-transition");
@@ -26,4 +29,6 @@ menu.addEventListener("click", function (e) {
   function closeNav() {
     document.getElementById("slideNav").style.width = "0";
   }
+ 
+
   

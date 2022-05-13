@@ -1,10 +1,13 @@
 {
   "name": "personal_professional_portfolio",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,8 @@
   "homepage": "https://github.com/maja3698/personal_professional_portfolio#readme",
   "devDependencies": {
     "vite": "^2.9.1"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6"
   }
 }

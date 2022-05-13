@@ -9,29 +9,27 @@
   </head>
 
   <body>
-
     <div class="s-media">
-        <a class="fb-button" href="#">
-            <img src="assets/fb.png" alt="fb logo">
-        </a>
+      <a class="fb-button" href="#">
+        <img src="assets/fb.png" alt="fb logo" />
+      </a>
 
-        <a class="in-button" href="#">
-            <img src="assets/in.png" alt="linkedin logo">
-        </a>
+      <a class="in-button" href="#">
+        <img src="assets/in.png" alt="linkedin logo" />
+      </a>
 
-        <a class="github-button" href="#">
-            <img src="assets/git.png" alt="github logo">
-        </a>
+      <a class="github-button" href="#">
+        <img src="assets/git.png" alt="github logo" />
+      </a>
 
-        <a class="ig-button" href="#">
-            <img src="assets/ig.png" alt="ig logo">
-        </a>
+      <a class="ig-button" href="#">
+        <img src="assets/ig.png" alt="ig logo" />
+      </a>
     </div>
 
     <div>
-      
       <div class="menu" id="navbar">
-        <svg class="menu" id="menu" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-justify" viewBox="0 0 16 16">
+        <svg class="menu bi bi-justify" id="menu" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" viewBox="0 0 16 16">
           <path
             fill-rule="evenodd"
             d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"
@@ -41,9 +39,9 @@
     </div>
 
     <nav>
-        <a id="logo" href="index.html"><img src="assets/mb-logo-12.png" alt="logo" width= "65px" /> </a>
+      <a id="logo" href="index.html"><img src="assets/mb-logo-12.png" alt="logo" width="65px" /> </a>
       <ul class="navButtons show-desktop" id="navigation">
-        <svg class="exitButton" alt="exit-btn" id="exit" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-x" viewBox="0 0 16 16">
+        <svg class="exitButton bi bi-x" alt="exit-btn" id="exit" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" viewBox="0 0 16 16">
           <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
         </svg>
         <li><a href="index.html">Home</a></li>
@@ -58,58 +56,60 @@
         <h1>Contact me</h1>
         <p class="header-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
       </div>
-      <div class="call_graphics">
-      </div>
+      <div class="call_graphics"></div>
     </header>
     <main>
       <section id="contact-info">
-          <section class="info">
-              <article>
-                  <h1>Info</h1>
-                  <div>
-                      <div class="icon">
-                      </div>
-                      <p>+45 29 84 05 29</p>
-                  </div>
-                  <div>
-                    <div class="icon">
-                    </div>
-                    <p>Copenhagen, Denmark</p>
-                </div>
-              </article>
-          </section>
+        <section class="info">
+          <article>
+            <h1>Info</h1>
+            <div>
+              <div class="icon"></div>
+              <p>+45 29 84 05 29</p>
+            </div>
+            <div>
+              <div class="icon"></div>
+              <p>Copenhagen, Denmark</p>
+            </div>
+          </article>
+        </section>
 
-          <div>
-            <form>
-              <section id="contact-info">
-                <div class="fname">
-                  <label for="fname">First name:</label><br />
-                  <input type="text" id="fname" value="First name" required /><br /><br />
-                </div>
-                <div class="lname">
-                  <label for="lname">Last name:</label><br />
-                  <input type="text" id="lname" value="Last name" required /><br /><br />
-                </div>
-                <div class="email">
-                  <label for="email">Enter your email:</label><br />
-                  <input type="email" id="email" name="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br /><br />
-                </div>
-          
-              <input type="reset">
+        <div>
+          <h2>Email me</h2>
+          <form>
+            <section id="contact_info">
+              <div class="name">
+                <label for="name">First name:</label><br />
+                <input type="text" id="fname" placeholder="Your name" required /><br /><br />
+              </div>
+    
+              <div class="email">
+                <label for="email">Enter your email:</label><br />
+                <input type="email"
+                placeholder="Your mail" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required /><br /><br />
+              </div>
+              
+              
+              <div class="message">
+              <label for="msg">Message:</label>
+              <textarea class="input" id="msg" placeholder="Message"></textarea>
+              </div>
+
+            
               <div>
                 <div class="icon"></div>
-                <input type="submit" value="Submit" />
+                <div class="CTA_button send"> 
+                  <a class="send-btn"><span>Send
+                  </span></a>
+                </div>
+                <input type="reset"/>
               </div>
-              </section>
-            </form>
-          </div>
-
-
-    
+            </section>
+          </form>
+        </div>
       </section>
 
-
-      <section id="What I am good at">
+      <section id="what-i-am-good-at">
         <article>
           <h2>Want to hear more?</h2>
           <p></p>
@@ -122,16 +122,15 @@
 
     <footer>
       <section>
-          <h2>MAJA BERENDSEN</h2>
+        <h2>MAJA BERENDSEN</h2>
       </section>
       <section>
-          <div class="links">
-              <a href="#">About</a>
-              <a href="#">Contact</a>
-              <a href="#">Projects</a>
-              <a href="#">Other</a>
-
-          </div>
+        <div class="links">
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Projects</a>
+          <a href="#">Other</a>
+        </div>
       </section>
       <section class="socials">
         <a href="#">Facebook</a>

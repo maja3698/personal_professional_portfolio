@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/stylesheet.css" />
-    <title>Projects - Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Homepage - Portfolio</title>
   </head>
 
   <body>
@@ -44,76 +45,59 @@
         <svg class="exitButton bi bi-x" alt="exit-btn" id="exit" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" viewBox="0 0 16 16">
           <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
         </svg>
-        <li><a href="index.html">Home</a></li>
-        <li id="site-indicator"><a href="projects.html">Works</a></li>
+        <li id="site-indicator"><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Works</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
 
-    <header>
+    <header class="project-header">
       <div class="header_txt">
-        <h1>MY PROJECTS</h1>
-        <p class="header-p">Feel free to take a look at the recent projects I've been working on</p>
+        <h1 class="border-ff">
+          FREE <br />
+          FRIDGES
+        </h1>
+        <p class="header-p">I'm seeking an Internship with start in August and would love to help you with anything from content creation to fun coding projects</p>
       </div>
-      <div class="project_graphics"></div>
     </header>
     <main>
-      <section id="projects">
-        <div class="project">
-          <div class="overlay">
-            <article>
-              <h3>Client-name</h3>
-              <p>View Project</p>
-            </article>
-          </div>
-        </div>
+      <section id="divider"></section>
 
-        <div class="project">
-          <div class="overlay">
-            <article>
-              <h3>Client-name</h3>
-              <p>View Project</p>
-            </article>
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="overlay">
-            <article>
-              <h3>Client-name</h3>
-              <p>View Project</p>
-            </article>
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="overlay">
-            <article>
-              <h3>Client-name</h3>
-              <p>View Project</p>
-            </article>
-          </div>
+      <section class="project_desc">
+        <section>
+          <article>
+            <h4>Deliverables:</h4>
+            <p>Website & Brand Identity</p>
+          </article>
+          <article>
+            <h4>Made for:</h4>
+            <p>Free Fridge Copenhagen</p>
+          </article>
+          <article>
+            <h4>Year:</h4>
+            <p>2021</p>
+          </article>
+        </section>
+        <div class="mockup-con">
+          <div class="mockup1"></div>
         </div>
       </section>
 
-      <section id="how-i-work">
-        <h1>HOW I WORK</h1>
-
-        <div class="process">
-          <div class="observation"></div>
-          <div class="ideation"></div>
-          <div class="prototyping"></div>
-          <div class="coding"></div>
+      <section id="progress">
+        <div class="progress-images">
+          <img src="#" alt="#" />
+          <img src="#" alt="#" />
+          <img src="#" alt="#" />
         </div>
       </section>
 
       <section id="get-in-touch">
-        <article>
-          <h2>Let's Talk</h2>
-          <p></p>
+        <article data-aos="fade-up">
+          <h2>Do you have a job for me?</h2>
+          <p>I'm seeking an Internship with start in August and would love to help you with anything from content creation to fun coding projects</p>
           <div class="outline_button">
-            <a class="outline-btn"><span>Hire me</span></a>
+            <a class="outline-btn"><span>Let's meet</span></a>
           </div>
         </article>
       </section>
@@ -137,5 +121,19 @@
         <a href="#">LinkedIn</a>
       </section>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+    <script src="gsap.js"></script>
+
+    <script>
+      AOS.init({
+        offset: 120,
+        duration: 900,
+        easing: "ease-out",
+      });
+    </script>
   </body>
 </html>
