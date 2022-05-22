@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/stylesheet.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="lightbox/css/lightbox.min.css" />
     <title>Quick It - Portfolio</title>
   </head>
 
@@ -46,8 +47,8 @@
           <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
         </svg>
         <li id="site-indicator"><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Works</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
@@ -89,12 +90,15 @@
 
       <section id="progress">
         <div class="progress-images">
-          <img src="/assets/q-logo.png" alt="#" />
-          <img src="/assets/q-font.png" alt="#" />
-          <img src="/assets/q-colours.png" alt="#" />
-          <img src="/assets/q-omd.png" alt="#" />
+          <a class="example-image-link" href="/assets/q-logo.png" data-lightbox="example-set" data-title="an image"><img src="/assets/q-logo.png" alt="#" /></a>
+          
+          <a class="example-image-link" href="/assets/q-font.png" data-lightbox="example-set" data-title="an image"><img src="/assets/q-font.png" alt="#" /></a>
+          <a class="example-image-link" href="/assets/q-colours.png" data-lightbox="example-set" data-title="an image"><img src="/assets/q-colours.png" alt="#"/></a>
+          <a class="example-image-link" href="/assets/q-omd.png" data-lightbox="example-set" data-title="an image"><img src="/assets/q-omd.png" alt="#" /></a>
         </div>
       </section>
+
+      <!-- <a class="example-image-link" href="###" data-lightbox="example-set" data-title="an image"> <img src="/assets/s-feed1.png" alt="#" /></a> -->
 
       <section id="divider"></section>
       <section id="pagenation">
@@ -155,6 +159,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
     <script src="script.js"></script>
     <script src="gsap.js"></script>
+    <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
+
+
+    <script>
+      lightbox.option({
+        'alwaysShowNavOnTouchDevices': true,
+        'wrapAround': true,
+        'disableScrolling':true,
+        'fitImagesInViewport':true
+      })
+  </script>
 
     <script>
       AOS.init({
