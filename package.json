@@ -23,6 +23,7 @@
     "vite": "^2.9.1"
   },
   "dependencies": {
-    "aos": "^3.0.0-beta.6"
+    "aos": "^3.0.0-beta.6",
+    "photoswipe": "^5.2.7"
   }
 }
