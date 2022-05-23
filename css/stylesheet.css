@@ -225,12 +225,12 @@ header {
 .header_txt h1 {
   line-height: 6.5rem;
   font-weight: 400;
-  font-size: 7.5rem;
+  font-size:clamp(5.5rem, 7vw, 7.5rem);
   border-left: 1.3rem solid var(--light-blue);
   padding-left: 1.2rem;
 }
 .header_txt p {
-  font-size: 1.4rem;
+  font-size:clamp(1rem, 3vw, 1.4rem);
   margin-left: 2.5rem;
 }
 .header_txt .CTA_button {
@@ -257,10 +257,9 @@ header {
 #about {
   min-height: 40vh;
   background-color: var(--medium-grey);
-  padding: var(--padding);
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  justify-items: center;
 }
 
 .about-img {
@@ -275,14 +274,14 @@ header {
 #about article {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
   align-items: center;
   justify-content: center;
   max-width: 30vw;
 }
 #about article h2 {
-  font-size: 3.6rem;
+  font-size: 2.6rem;
   line-height: 4rem;
-  text-align: center;
   max-width: 70vw;
 }
 
@@ -290,21 +289,24 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  margin: 2rem auto 4rem;
-  width: 90%;
-  justify-content: space-between;
+  width: 65%;
   align-items: center;
 }
 
+.about-box {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .skill {
-  max-width: 4vh;
+  max-width: 1.5rem;
 }
 /* ABOUT END */
 
 /* PROJECTS */
 #projects {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -799,12 +801,12 @@ footer {
   min-height: 15vh;
   color: var(--custom-white);
 }
-.contact-info{
+.contact-info {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
 }
-.socials{
+.socials {
   flex-wrap: wrap;
   display: flex;
   gap: 2rem;
@@ -814,4 +816,49 @@ footer {
 /* KEYFRAMES */
 /* KEYFRAMES END */
 /* MEDIA QUARIES */
+@media only screen and (min-width:500px) {
+
+.s-media{
+display: none;
+  }
+/* HEADER */
+
+  header{
+    min-height: 100vh;
+
+    padding-bottom: 3rem;
+  }
+
+  .header_txt {
+    max-width: 25rem;
+  }
+  .header_txt h1{
+    line-height: 4.5rem;
+    border-left: 1rem solid var(--light-blue);
+  }
+ 
+  /* ABOUT */
+
+#about {
+  min-height: 100vh;
+  grid-template-columns: 1fr;
+}
+
+#about article {
+ align-self: center;
+  max-width: 80vw;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--dark-black);
+  min-height: 4vh;
+  color: var(--custom-white);
+}
+
+  
+}
+
 /* MEDIA QUARIES END */
