@@ -7,7 +7,6 @@ let exit = document.getElementById("exit");
 
 let desktop = window.matchMedia("(min-width: 1234px)")
 
-const header = document.querySelector(".leftheader")
 
 menu.addEventListener("click", function (e) {
   nav.classList.add("nav-transition");
@@ -25,26 +24,7 @@ nav.addEventListener("click", function (e) {
 
 
 
-const keyframes = [
-  {
-    height: "30vh",
-    easing: "ease-in",
-  },
-  {
-    height: "100vh",
-    easing: "ease-in",
-  },
-];
-
-const properties = {
-  duration: 750,
-  delay: 2,
-  iterations: 1,
-};
-
-
 if (desktop.matches){
-  header.animate(keyframes, properties);
 
 }
 function openNav() {
