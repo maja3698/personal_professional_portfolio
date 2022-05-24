@@ -37,13 +37,13 @@ h1 {
 
 h2 {
   font-family: var(--teko);
-  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-size: clamp(1.9rem, 3vw, 2rem);
   line-height: 2.5rem;
 }
 
 h3 {
   font-family: var(--teko);
-  font-size: clamp(1.2rem, 4vw, 1.5rem);
+  font-size: clamp(1.5rem, 4vw, 1.5rem);
   padding-bottom: 0.9rem;
 }
 
@@ -55,7 +55,7 @@ h4 {
 
 p {
   color: var(--black);
-  line-height: 1.5rem;
+  line-height: 1.8rem;
   font-size: clamp(0.5rem, 5vw, 1rem);
   font-family: var(--mont);
 }
@@ -97,7 +97,7 @@ a:hover {
   display: block;
   width: 10rem;
   height: 40px;
-  line-height: 40px;
+  line-height: 50px;
   color: var(--dark-black);
   font-family: var(--teko);
   font-size: 1.5rem;
@@ -108,7 +108,7 @@ a:hover {
 }
 
 .CTA_button a:hover {
-  color: #29292c;
+  color: #f8f8f8;
 }
 
 .outline_button {
@@ -118,6 +118,8 @@ a:hover {
   max-width: 10rem;
   max-height: 2.7rem;
 }
+
+
 
 .outline-btn {
   display: block;
@@ -131,6 +133,13 @@ a:hover {
   position: relative;
   transition: all 0.35s;
   cursor: pointer;
+}
+
+
+.outline-btn:hover {
+
+  color: var(--white);
+  
 }
 
 /* SOCIALS */
@@ -158,7 +167,6 @@ nav {
   justify-content: space-between;
   background-color: var(--dark-black);
   /* border-bottom: 1px solid var(--color-darkest); */
-  padding: 2.2rem;
   align-items: center;
 }
 
@@ -167,7 +175,10 @@ nav {
   justify-content: space-between;
   gap: 5rem;
   list-style: none;
-  padding-left: 2rem;
+  padding: 2rem;
+}
+#logo {
+  padding: 1rem;
 }
 
 nav a {
@@ -176,7 +187,7 @@ nav a {
   font-weight: 400;
 }
 
-/* BURGER MENU */
+/* #### BURGER MENU */
 
 .show-desktop {
   display: block;
@@ -189,16 +200,18 @@ nav a {
 .menu {
   width: 3em;
   float: right;
-
   cursor: pointer;
+}
+#navbar {
+  position: absolute;
+  right: 1rem;
 }
 
 .exitButton {
   position: absolute;
-  width: 2em;
-  top: 0;
-  right: 3em;
-  padding-top: 3em;
+  width: 3rem;
+  top: 1rem;
+  right: 1rem;
   cursor: pointer;
 }
 
@@ -223,14 +236,14 @@ header {
 }
 
 .header_txt h1 {
-  line-height: 6.5rem;
+  line-height: clamp(3.5rem, 6vw, 7.5rem);
   font-weight: 400;
-  font-size:clamp(5.5rem, 7vw, 7.5rem);
+  font-size: clamp(3.5rem, 7vw, 7.5rem);
   border-left: 1.3rem solid var(--light-blue);
   padding-left: 1.2rem;
 }
 .header_txt p {
-  font-size:clamp(1rem, 3vw, 1.4rem);
+  font-size: clamp(1rem, 3vw, 1.4rem);
   margin-left: 2.5rem;
 }
 .header_txt .CTA_button {
@@ -241,8 +254,10 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  min-width: 500px;
-  min-height: 500px;
+  width: 500px;
+  height: 500px;
+  min-width: 250px;
+  min-height: 200px;
 }
 
 /* HEADER END */
@@ -266,8 +281,9 @@ header {
   background-image: url(/assets/about_img.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  width: 500px;
+  width: 50vw;
   height: 750px;
+  min-width: 100vw;
   position: relative;
   filter: grayscale();
 }
@@ -323,6 +339,10 @@ header {
   grid-gap: 4rem;
 }
 
+#other {
+  padding-bottom: 5rem;
+}
+
 .free-fridges-w {
   background-image: url(/assets/free-fridge-w.png);
   background-position: center;
@@ -332,7 +352,7 @@ header {
   width: 450px;
   height: 300px;
   position: relative;
-  left: -700px;
+  left: -1219px;
 }
 .louisiana-w {
   background-image: url(/assets/louisianna-w.png);
@@ -342,7 +362,7 @@ header {
   width: 450px;
   height: 300px;
   position: relative;
-  right: -700px;
+  right: -1219px;
 }
 
 .quickit-w {
@@ -354,7 +374,7 @@ header {
   width: 450px;
   height: 300px;
   position: relative;
-  left: -700px;
+  left: -1219px;
 }
 .hogwarts-w {
   background-image: url(/assets/hogwarts-w.png);
@@ -364,7 +384,7 @@ header {
   width: 450px;
   height: 300px;
   position: relative;
-  right: -700px;
+  right: -1219px;
 }
 
 .silfen-w {
@@ -375,7 +395,7 @@ header {
   width: 450px;
   height: 300px;
   position: relative;
-  right: -700px;
+  right: -1219px;
 }
 
 .quick2it-w {
@@ -387,7 +407,7 @@ header {
   width: 450px;
   height: 300px;
   position: relative;
-  left: -700px;
+  left: -1219px;
 }
 
 .project article {
@@ -458,12 +478,12 @@ header {
 
 #get-in-touch article h2,
 #what-i-am-good-at article h2 {
-  font-size: 3rem;
+  font-size: clamp(2rem, 3vw, 3rem);
 }
 
 #get-in-touch article p,
 #what-i-am-good-at article p {
-  font-size: 1.2rem;
+  font-size: clamp(0.9rem, 2vw, 1.2rem);
 }
 /* GET IN TOUCH END */
 
@@ -816,49 +836,147 @@ footer {
 /* KEYFRAMES */
 /* KEYFRAMES END */
 /* MEDIA QUARIES */
-@media only screen and (min-width:500px) {
 
-.s-media{
-display: none;
+@media only screen and (max-width: 1065px) {
+  .menu,
+  .exitButton {
+    display: block;
+    position: absolute;
   }
-/* HEADER */
 
-  header{
-    min-height: 100vh;
+  #navigation {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    padding-top: 10rem;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    background-color: #01a79f;
+    top: -100%;
+    overflow-x: hidden;
+    transition: 0.5s ease;
+  }
+  .nav-transition {
+    top: -0 !important;
+    transition: 1s !important;
+  }
 
+  nav ul li {
+    display: block;
+    transition: 0.3s;
+    top: 80px;
+  }
+
+  nav a {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  #site-indicator {
+    border: none;
+  }
+
+  .header_txt {
+    max-width: 35rem;
+  }
+  header {
     padding-bottom: 3rem;
+  }
+
+  #about {
+    grid-template-columns: repeat(auto-fit, minmax(60%, 1fr));
+  }
+  #about article {
+    flex-direction: row;
+    max-width: 80vw;
+  }
+
+  #toolbox {
+    width: 100%;
+    align-items: start;
+  }
+
+  .tools {
+    padding-bottom: 10vw;
+  }
+
+  #websites,
+  #other {
+    grid-template-columns: 1fr;
+  }
+
+  .project {
+    position: static;
+    justify-self: center;
+    min-width: 200px;
+    width: 90vw;
+  }
+  footer {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    min-height: 4vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .s-media {
+    display: none;
+  }
+  /* HEADER */
+
+  header {
+    min-height: 100vh;
   }
 
   .header_txt {
     max-width: 25rem;
   }
-  .header_txt h1{
+  .header_txt h1 {
     line-height: 4.5rem;
     border-left: 1rem solid var(--light-blue);
   }
- 
+
   /* ABOUT */
 
-#about {
-  min-height: 100vh;
-  grid-template-columns: 1fr;
+  #about {
+    min-height: 100vh;
+    grid-template-columns: 1fr;
+  }
+
+  #about article {
+    flex-direction: column;
+    max-width: 80vw;
+    align-self: center;
+  }
+
+  .tools {
+    padding: 10vw;
+  }
+
+  #toolbox {
+    width: 100%;
+  }
+
+  #get-in-touch article,
+  #what-i-am-good-at article {
+    max-width: 100vw;
+  }
+
+  #get-in-touch,
+  #what-i-am-good-at {
+    min-height: 20rem;
+  }
 }
 
-#about article {
- align-self: center;
-  max-width: 80vw;
-}
-
-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: var(--dark-black);
-  min-height: 4vh;
-  color: var(--custom-white);
-}
-
-  
+@media only screen and (min-width: 1609px) {
+  #websites,
+  #other {
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+    grid-gap: 4rem;
+  }
 }
 
 /* MEDIA QUARIES END */
