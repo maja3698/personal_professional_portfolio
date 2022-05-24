@@ -158,6 +158,10 @@ a:hover {
 .s-media img {
   width: 45px;
 }
+
+.s-media img:hover{
+  animation: bigscale 0.5s forwards;
+}
 /* SOCIALS END */
 
 /* NAVIGATION */
@@ -537,9 +541,9 @@ header {
 
 .project_desc section {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-columns: 1;
-  grid-gap: 8rem;
+  grid-gap: 5rem;
 }
 
 .mockup-con {
@@ -570,7 +574,7 @@ header {
 }
 
 .mockup1-l {
-  background-image: url("/assets/l-mockuo.png");
+  background-image: url("/assets/l-mockup.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -834,6 +838,23 @@ footer {
 
 /* FOOTER END */
 /* KEYFRAMES */
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+@keyframes bigscale {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.4);
+  }
+}
 /* KEYFRAMES END */
 /* MEDIA QUARIES */
 
