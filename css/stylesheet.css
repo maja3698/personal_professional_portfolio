@@ -119,8 +119,6 @@ a:hover {
   max-height: 2.7rem;
 }
 
-
-
 .outline-btn {
   display: block;
   width: 10rem;
@@ -135,11 +133,8 @@ a:hover {
   cursor: pointer;
 }
 
-
 .outline-btn:hover {
-
   color: var(--white);
-  
 }
 
 /* SOCIALS */
@@ -159,7 +154,7 @@ a:hover {
   width: 45px;
 }
 
-.s-media img:hover{
+.s-media img:hover {
   animation: bigscale 0.5s forwards;
 }
 /* SOCIALS END */
@@ -254,7 +249,7 @@ header {
   margin-left: 2.5rem;
 }
 .header_graphics {
-  background-image: url(/assets/portfolio-graphic.png);
+  background-image: url("/assets/portfolio-graphic.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -282,7 +277,7 @@ header {
 }
 
 .about-img {
-  background-image: url(/assets/about_img.jpg);
+  background-image: url("/assets/about_img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   width: 50vw;
@@ -348,7 +343,7 @@ header {
 }
 
 .free-fridges-w {
-  background-image: url(/assets/free-fridge-w.png);
+  background-image: url("/assets/free-fridge-w.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -359,7 +354,7 @@ header {
   left: -1219px;
 }
 .louisiana-w {
-  background-image: url(/assets/louisianna-w.png);
+  background-image: url("/assets/louisianna-w.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -370,7 +365,7 @@ header {
 }
 
 .quickit-w {
-  background-image: url(/assets/quickit-w.png);
+  background-image: url("/assets/quickit-w.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -381,7 +376,7 @@ header {
   left: -1219px;
 }
 .hogwarts-w {
-  background-image: url(/assets/hogwarts-w.png);
+  background-image: url("/assets/hogwarts-w.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -392,7 +387,7 @@ header {
 }
 
 .silfen-w {
-  background-image: url(/assets/silfen.png);
+  background-image: url("/assets/silfen.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -403,7 +398,7 @@ header {
 }
 
 .quick2it-w {
-  background-image: url(/assets/quick2it.png);
+  background-image: url("/assets/quick2it.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -554,7 +549,7 @@ header {
   margin-bottom: 5rem;
 }
 
-.mockup-con > *{
+.mockup-con > * {
   width: 50vw;
   height: 50vw;
 }
@@ -563,14 +558,12 @@ header {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  
 }
 .mockup2-ff {
   background-image: url("/assets/ff-mobile.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-
 }
 
 .mockup1-l {
@@ -578,7 +571,6 @@ header {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  
 }
 
 .mockup2-l {
@@ -586,7 +578,6 @@ header {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-
 }
 
 .mockup1-q {
@@ -594,7 +585,6 @@ header {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-
 }
 
 .mockup1-h {
@@ -602,7 +592,6 @@ header {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-
 }
 
 .mockup1-s {
@@ -610,7 +599,6 @@ header {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  
 }
 
 #progress {
@@ -688,26 +676,26 @@ header {
 }
 
 .l-cover {
-  background-image: url(/assets/l-cover.png);
+  background-image: url("/assets/l-cover.png");
 }
 
 .q2-cover {
-  background-image: url(/assets/q2-cover.png);
+  background-image: url("/assets/q2-cover.png");
 }
 .f-cover {
-  background-image: url(/assets/f-cover.png);
+  background-image: url("/assets/f-cover.png");
 }
 
 .s-cover {
-  background-image: url(/assets/s-cover.png);
+  background-image: url("/assets/s-cover.png");
 }
 
 .q-cover {
-  background-image: url(/assets/q-cover.png);
+  background-image: url("/assets/q-cover.png");
 }
 
 .h-cover {
-  background-image: url(/assets/h-cover.png);
+  background-image: url("/assets/h-cover.png");
 }
 
 .f-cover:hover .p-overlay,
@@ -742,7 +730,7 @@ header {
   z-index: 40;
   left: 20%;
   top: 45%;
-  background-image: url(/assets/arrow-left.png);
+  background-image: url("/assets/arrow-left.png");
   background-size: contain;
   width: 40px;
   height: 40px;
@@ -754,7 +742,7 @@ header {
   z-index: 40;
   left: 50%;
   top: 45%;
-  background-image: url(/assets/arrow-right.png);
+  background-image: url("/assets/arrow-right.png");
   background-size: contain;
   width: 40px;
   height: 40px;
@@ -784,7 +772,7 @@ header {
 }
 
 .call_graphics {
-  background-image: url(/assets/call-graphic_call-graphic.png);
+  background-image: url("/assets/call-graphic_call-graphic.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -865,9 +853,9 @@ footer {
     position: absolute;
   }
 
-  .overlay{
+  .overlay {
     opacity: 0;
-   }
+  }
 
   #navigation {
     display: block;
@@ -994,82 +982,80 @@ footer {
   #what-i-am-good-at {
     min-height: 20rem;
   }
-/* #####################  PROJECT PAGE  ########################## */
+  /* #####################  PROJECT PAGE  ########################## */
 
+  .project_desc section {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    align-self: flex-start;
+    padding-left: 1rem;
+  }
 
-.project_desc section {
-  grid-template-columns: 1fr;
-  gap: 1rem;
-  align-self: flex-start;
-  padding-left: 1rem;
-}
+  .mockup-con {
+    flex-direction: column;
+  }
+  .mockup-con > * {
+    width: 90vw;
+    height: 90vw;
+  }
 
-.mockup-con{
-  flex-direction: column;
-}
-.mockup-con > * {
-  width:90vw;
-height: 90vw;
-}
+  #pagenation {
+    flex-direction: column;
+    gap: 1rem;
+  }
 
-#pagenation {
-flex-direction: column;
-gap: 1rem;
-}
+  .prev,
+  .next {
+    align-items: center;
+  }
 
-.prev, .next{
-  align-items: center;
-}
+  .left-box,
+  .right-box {
+    width: 80vw;
+    min-height: 50vw;
+  }
 
-.left-box, .right-box {
-  width: 80vw;
-  min-height: 50vw;
-}
-
-iframe{
-  width: 100%;
+  iframe {
+    width: 100%;
     min-height: 15rem;
     height: auto;
-}
+  }
 
-.progress-images img {
-  max-width: 18rem;
-}
-
-
+  .progress-images img {
+    max-width: 18rem;
+  }
 }
 
 @media only screen and (max-width: 816px) {
-  .call_graphics{
+  .call_graphics {
     display: none;
   }
 
-  .intro{
+  .intro {
     display: block;
     min-height: 120vh;
   }
 
-  .contact-img{
+  .contact-img {
     min-width: 100%;
     width: 100vw;
   }
 
-  .contact-information{
+  .contact-information {
     position: absolute;
-    top:60%;
+    top: 60%;
     left: 10%;
     max-width: 80vw;
     padding: 1rem;
   }
-  .overlay{
-   opacity: 0;
+  .overlay {
+    opacity: 0;
   }
   .project-header .header_txt {
     flex-direction: column;
-    gap:1rem;
+    gap: 1rem;
     align-items: flex-start;
   }
-  
 }
 
 @media only screen and (min-width: 1609px) {
@@ -1078,7 +1064,6 @@ iframe{
     grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
     grid-gap: 4rem;
   }
- 
 }
 
 /* MEDIA QUARIES END */
