@@ -249,7 +249,7 @@ header {
   margin-left: 2.5rem;
 }
 .header_graphics {
-  background-image: url("assets/portfolio-graphic.png");
+  background-image: url("../assets/portfolio-graphic.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -277,7 +277,7 @@ header {
 }
 
 .about-img {
-  background-image: url("assets/about_img.jpg");
+  background-image: url("../assets/about_img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   width: 50vw;
@@ -343,7 +343,7 @@ header {
 }
 
 .free-fridges-w {
-  background-image: url("assets/free-fridge-w.png");
+  background-image: url("../assets/free-fridge-w.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -354,7 +354,7 @@ header {
   left: -1219px;
 }
 .louisiana-w {
-  background-image: url("assets/louisianna-w.png");
+  background-image: url("../assets/louisianna-w.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -365,7 +365,7 @@ header {
 }
 
 .quickit-w {
-  background-image: url("assets/quickit-w.png");
+  background-image: url("../assets/quickit-w.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -376,7 +376,7 @@ header {
   left: -1219px;
 }
 .hogwarts-w {
-  background-image: url("assets/hogwarts-w.png");
+  background-image: url("../assets/hogwarts-w.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -387,7 +387,7 @@ header {
 }
 
 .silfen-w {
-  background-image: url("assets/silfen.png");
+  background-image: url("../assets/silfen.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -398,7 +398,7 @@ header {
 }
 
 .quick2it-w {
-  background-image: url("assets/quick2it.png");
+  background-image: url("../assets/quick2it.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -554,48 +554,48 @@ header {
   height: 50vw;
 }
 .mockup1-ff {
-  background-image: url("assets/mockup-ff.png");
+  background-image: url("../assets/mockup-ff.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .mockup2-ff {
-  background-image: url("assets/ff-mobile.png");
+  background-image: url("../assets/ff-mobile.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .mockup1-l {
-  background-image: url("assets/l-mockup.png");
+  background-image: url("../assets/l-mockup.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .mockup2-l {
-  background-image: url("assets/l-mobile.png");
+  background-image: url("../assets/l-mobile.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .mockup1-q {
-  background-image: url("assets/q-mockup.png");
+  background-image: url("../assets/q-mockup.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .mockup1-h {
-  background-image: url("assets/h-mockup.png");
+  background-image: url("../assets/h-mockup.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .mockup1-s {
-  background-image: url("assets/s-display.png");
+  background-image: url("../assets/s-display.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -675,26 +675,26 @@ header {
 }
 
 .l-cover {
-  background-image: url("assets/l-cover.png");
+  background-image: url("../assets/l-cover.png");
 }
 
 .q2-cover {
-  background-image: url("assets/q2-cover.png");
+  background-image: url("../assets/q2-cover.png");
 }
 .f-cover {
-  background-image: url("assets/f-cover.png");
+  background-image: url("../assets/f-cover.png");
 }
 
 .s-cover {
-  background-image: url("assets/s-cover.png");
+  background-image: url("../assets/s-cover.png");
 }
 
 .q-cover {
-  background-image: url("assets/q-cover.png");
+  background-image: url("../assets/q-cover.png");
 }
 
 .h-cover {
-  background-image: url("assets/h-cover.png");
+  background-image: url("../assets/h-cover.png");
 }
 
 .f-cover:hover .p-overlay,
@@ -729,7 +729,7 @@ header {
   z-index: 40;
   left: 20%;
   top: 45%;
-  background-image: url("assets/arrow-left.png");
+  background-image: url("../assets/arrow-left.png");
   background-size: contain;
   width: 40px;
   height: 40px;
@@ -741,7 +741,7 @@ header {
   z-index: 40;
   left: 50%;
   top: 45%;
-  background-image: url("assets/arrow-right.png");
+  background-image: url("../assets/arrow-right.png");
   background-size: contain;
   width: 40px;
   height: 40px;
@@ -771,7 +771,7 @@ header {
 }
 
 .call_graphics {
-  background-image: url("assets/call-graphic_call-graphic.png");
+  background-image: url("../assets/call-graphic_call-graphic.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
