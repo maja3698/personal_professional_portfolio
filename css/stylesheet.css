@@ -174,7 +174,7 @@ nav {
   justify-content: space-between;
   gap: 5rem;
   list-style: none;
- padding: 4vw;
+  padding: 4vw;
 }
 #logo {
   padding: 1rem;
@@ -857,7 +857,6 @@ footer {
   }
 
   #navigation {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
